@@ -5,11 +5,12 @@
 * Se establece al inicio de la conexión.
 * Permanece abierto durante toda la sesión.
 * Transporta comandos FTP.
+`
 ┌─────────────┐          TCP 21          ┌─────────────┐
 │ Cliente FTP │ ───────────────────────▶ │ Servidor FTP│
 │             │ ◀─────────────────────── │             │
 └─────────────┘   comandos / respuestas  └─────────────┘
-
+`
 ## Modo activo
 * Canal de control:
 ┌─────────────┐          TCP 21          ┌─────────────┐
